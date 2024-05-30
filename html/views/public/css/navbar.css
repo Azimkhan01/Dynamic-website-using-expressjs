@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin:0px
+}
+html{
+    scroll-behavior: smooth;
+}
+#sticky{
+    
+    position: sticky;
+    
+    background-color: transparent;
+}
+#container
+{    
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1%;
+    color: black;
+    height: 25px;
+    background-color: whitesmoke;
+    border-bottom: 5px;
+}
+.Attribute
+{  
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+}
+.Attribute:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color:black
+}
+a{
+text-decoration: none;
+color:black;
+font-weight: 500;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: rgb(255, 53, 86);
+    height: 40px;
+    padding: 5px;
+    border: 2px solid rgb(255, 53, 86);
+    border-radius: 5px;
+    transition: all 0.35  ease-in-out;
+}

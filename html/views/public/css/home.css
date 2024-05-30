@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+
+#sticky{
+    z-index: 9;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    height: 42rem;
+    background-image: linear-gradient(rgb(241, 36, 111),rgb(241, 36, 111));
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+    justify-content: center;
+    overflow: hidden;
+}
+#containerleft{
+ height: 46.2rem;
+ width: 50%;
+ background-color: white;
+ margin-right: -41rem;
+ overflow: hidden; 
+ transform: translate(-15rem,-20rem) rotate(30deg);
+ animation: move alternate ease-in-out 5s infinite 0s;
+ transition: all 2s ease-in-out;
+}
+#containerright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70rem;
+    width: 80%;
+    background-color: white;
+    transform : translate(25rem,-10rem) rotate(30deg);
+    overflow:hidden;
+    transition: all 4s ease-in-out;
+    animation: move2 alternate ease-in-out 5s infinite 0s;
+    transition: all 2s ease-in-out;
+   
+}
+#insideleft{
+    transform: translate(10rem,15rem) rotate(-30deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 70%;
+    width: 40rem;
+    margin-left: 5.5rem;
+    margin-top: 0.5rem;
+    transition: all 2s ease-in-out;
+}
+img{
+    object-fit: cover;
+    height: 22rem;
+    width: 33rem;
+    transform: rotate(-5deg);
+    transition: all 2s ease-in-out;
+    animation: smoke alternate ease-in-out 4.5s infinite 0s;
+}
+#content{
+    margin-left: 10rem;
+    font-size: 50px;
+    transition: all 2s ease-in-out;
+    z-index: 8;
+}
+#insideright{
+    transform: translate(-25rem,10rem) rotate(-30deg);
+    margin-left: 29rem;
+    text-align: center;
+    margin-top: -20rem;
+    transition: all 2s ease-in-out;
+    
+}
+p{
+    text-align: normal;
+}
+@keyframes smoke {
+    from{
+      transform: translate(-1rem,10rem);
+    }
+    to{
+        transform: translate(0rem,0rem);
+    }
+}
+@keyframes move {
+    from{
+      transform: translate(0rem,-100rem) rotate(0deg);
+      transition: all 2s ease-in-out;
+    }
+    to{
+        transform: translate(-15rem,-20rem) rotate(30deg);
+        transition: all 2s ease-in-out;
+    }
+}
+@keyframes move2 {
+    from{
+        
+      transform: translate(25rem,-100rem) rotate(0deg);
+      transition: all 2s ease-in-out;
+      
+    }
+    to{  background-color: white;
+        transform: translate(25rem,-10rem) rotate(30deg);
+        transition: all 2s ease-in-out;
+    }
+}

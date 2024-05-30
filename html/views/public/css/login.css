@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#main{
+  
+    height: 35rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+div#container {
+    border: 2px solid black;
+    height: 30rem;
+    width: 100%;
+    margin: auto;
+    text-align: start;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.attribute{
+    margin-top: 1rem;
+    width: 50%;
+    margin-left:5rem ;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+}
+#submit{
+    width: 30%;
+    margin-left: 15rem;
+    margin-top:4rem;
+    height:2rem;
+    border-radius: 50%;
+    border:2px solid black
+}
+label{
+    margin-left: 1.5rem;
+    margin-top:2rem
+}

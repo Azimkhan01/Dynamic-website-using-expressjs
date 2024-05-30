@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: pink;
+}
+#container{
+    height: 25rem;
+    width: 40%;
+    margin-top:20%;
+    margin-left:30%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 20px;
+
+}
+#main{
+    display: flex;
+    height: 15rem;
+    width: 50%;
+    flex-direction: column;
+    margin:16% ;
+    background-color: white;
+}
+img{
+    object-fit: cover;
+    height: 8rem;
+    width: 4rem;
+    position: relative;
+    left: 30%;
+}
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    background-color: pink;
+}
+#green:hover{
+    background-color: rgb(0, 191, 255);
+    border: 2.5px solid rgb(12, 14, 0);
+}
+#red:hover{
+    background-color: rgb(255, 80, 109);
+    border: 2.5px solid rgb(12, 14, 0);
+}
